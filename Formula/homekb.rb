@@ -4,23 +4,23 @@
 class Homekb < Formula
   desc "Personal markdown knowledge base: compile, semantic search, serve"
   homepage "https://github.com/do-md/homekb"
-  version "0.3.2"
+  version "0.3.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/do-md/homekb/releases/download/engine-v0.3.2/homekb-macos-arm64.tar.gz"
-      sha256 "ccc4738f218f05b2b602846556ee6b889c2f988a92c09e37dd808ba9b514046e"
+      url "https://github.com/do-md/homekb/releases/download/engine-v0.3.3/homekb-macos-arm64.tar.gz"
+      sha256 "324b431ced1561212b58acb8e476ba270cf8d0d64e6ce36cdda3716bf23fbf24"
     end
     on_intel do
-      url "https://github.com/do-md/homekb/releases/download/engine-v0.3.2/homekb-macos-x64.tar.gz"
-      sha256 "89c0b30615f6a338be58a0faa3b6e8dbd857ebba9704beab379a3c1e1cfbe091"
+      url "https://github.com/do-md/homekb/releases/download/engine-v0.3.3/homekb-macos-x64.tar.gz"
+      sha256 "a5000f2bca37979ee399d6ccde87d7fc3f44c37d24b3c723f19e6837ce78f5a1"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/do-md/homekb/releases/download/engine-v0.3.2/homekb-linux-x64.tar.gz"
-      sha256 "494849061f704a10f1974b4fa985713e66b8e5676fc009ec74545d1ea929d91a"
+      url "https://github.com/do-md/homekb/releases/download/engine-v0.3.3/homekb-linux-x64.tar.gz"
+      sha256 "daff34b752a4891144ef42d919a2ec09c93fd5f2d71ed2e34eaf8ead5d446961"
     end
   end
 
